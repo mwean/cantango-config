@@ -17,10 +17,11 @@ module CanTango
       
       def components
         [
-          :guest, :autoload, :user, :account, :models, :modes, :roles, :role_groups,
+          :guest, :autoload, :user, :account, :models,
           :engines, :users, :accounts, :categories, :adapters, :debug,
           :localhosts, :orms, :hooks, :helpers
         ]
+        # :modes, :roles, :role_groups
       end
     end
   end
